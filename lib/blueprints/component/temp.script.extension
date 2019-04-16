@@ -1,19 +1,16 @@
-export default {
-  name: '{{name | kebabCase}}',
-  components: {},
-  props: [],
-  data () {
-    return {
+import { Component, Vue } from 'vue-property-decorator';
 
-    }
+@Component({
+  components: {
   },
-  computed: {
+})
 
-  },
-  mounted () {
+export default class {{name | camelCase}}{{postfix | camelCase}} extends Vue {
 
-  },
-  methods: {
+  created(){
 
   }
+  
 }
+
+

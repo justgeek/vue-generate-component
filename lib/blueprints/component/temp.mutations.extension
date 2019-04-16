@@ -1,0 +1,7 @@
+import { MutationTree } from 'vuex';
+export const {{name | camelCase}}Mutations: MutationTree<any> = {
+  //  DO__SOME_ACTION(state: any, payload: entity[]) {
+  //   state.entity = payload;
+  // },
+  };
+

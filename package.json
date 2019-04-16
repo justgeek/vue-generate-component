@@ -1,9 +1,9 @@
 {
-  "name": "vue-generate-component",
-  "version": "2.0.0",
-  "description": "Vue js component generator",
+  "name": "vue-generate-component-x",
+  "version": "1.0.0",
+  "description": "Vue js component generator. Supports creating files for vuex store, and actions",
   "main": "lib/vgc.js",
-  "homepage": "https://github.com/NetanelBasal/vue-generate-component",
+  "homepage": "https://github.com/justgeek/vue-generate-component",
   "scripts": {
     "build": "rm -rf dist && npm run gulp -- build",
     "gulp": "gulp",
@@ -18,14 +18,14 @@
     "vue js cli",
     "vue js generator"
   ],
-  "author": "Netanel Basal <netanel7799@gmail.com>",
+  "author": "Mohamed Taher <tdk1988tdk@gmail.com>",
   "license": "ISC",
   "bin": {
     "vgc": "dist/vgc.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/NetanelBasal/vue-generate-component"
+    "url": "https://github.com/justgeek/vue-generate-component"
   },
   "dependencies": {
     "babel-cli": "^6.3.17",

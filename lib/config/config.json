@@ -2,6 +2,9 @@
   "filesType": {
     "spec": "js",
     "script": "js",
+    "actions": "js",
+    "store": "js",
+    "mutations": "js",
     "html": "html",
     "style": "scss"
   }
