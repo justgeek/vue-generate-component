@@ -23,6 +23,12 @@ Please feel free to contribute or just send your suggestions/feedback to <mt@pro
 ```js
 npm install -S vue-generate-component-x
 ```
+-- or --
+
+```js
+npm install -g vue-generate-component-x
+```
+
 
 ## Usage
 
