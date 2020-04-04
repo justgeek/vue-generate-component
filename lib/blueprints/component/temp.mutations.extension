@@ -1,7 +1,11 @@
-import { MutationTree } from 'vuex';
-export const {{name | camelCase}}Mutations: MutationTree<any> = {
-  //  DO__SOME_ACTION(state: any, payload: entity[]) {
-  //   state.entity = payload;
-  // },
-  };
+import { {{name | camelCase}}State } from './{{name}}.store';
 
+export const namespace = '{{name | camelCase}}Store';
+
+export const {{name | camelCase}}Mutations = {
+
+} 
+
+export const {{name | camelCase}}MutationsMap = {
+
+} 

@@ -21,7 +21,7 @@
   "author": "Mohamed Taher <tdk1988tdk@gmail.com>",
   "license": "ISC",
   "bin": {
-    "vgc": "dist/vgc.js"
+    "vgcx": "dist/vgc.js"
   },
   "repository": {
     "type": "git",

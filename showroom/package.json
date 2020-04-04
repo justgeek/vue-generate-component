@@ -1,0 +1,12 @@
+{
+  "name": "showroom",
+  "version": "1.0.0",
+  "description": "vue-genrator-show-room, use npm link",
+  "main": "index.js",
+  "scripts": {
+    "help": "vgcx --help",
+    "newpage" : "vgcx --script ts --postfix page --dest path/to"
+  },
+  "author": "",
+  "license": "ISC"
+}

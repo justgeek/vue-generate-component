@@ -1,0 +1,10 @@
+import Vue from 'vue';
+import { mount } from '@vue/test-utils'
+import {{name | PascalCase}}{{postfix | PascalCase}} from './{{name}}{% if postfix %}.{{postfix}}{% endif %}.{{ filesType.script }}';
+
+describe('{{name | PascalCase}}{{postfix | PascalCase}}', () => {
+  test('is a Vue instance', () => {
+    const wrapper = mount({{name | PascalCase}}{{postfix | PascalCase}})
+    expect(wrapper.isVueInstance()).toBeTruthy()
+  })
+})

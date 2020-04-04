@@ -1,0 +1,5 @@
+import { {{name | PascalCase}}State } from  './{{ name }}.store.{{ filesType.script }}';
+
+export const {{name | camelCase}}Getters = {
+
+};
