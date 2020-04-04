@@ -1,4 +1,4 @@
-import { {{name | PascalCase}}State } from  './{{ name }}.store.{{ filesType.script }}';
+import { {{name | PascalCase}}State } from  './{{ name }}.store';
 
 export const {{name | camelCase}}Getters = {
 
