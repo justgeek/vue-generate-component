@@ -1,6 +1,6 @@
 {
   "name": "vue-generate-component-x",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Vue js component generator. Supports creating files for vuex store, and actions",
   "main": "lib/vgc.js",
   "homepage": "https://github.com/justgeek/vue-generate-component",
