@@ -1,14 +1,19 @@
-import { Module } from 'vuex';
-import { {{name | camelCase}}Mutations } from  'from "./{{ name }}.mutations.{{ filesType.script }}";'
-import { {{name | camelCase}}Actions} from  'from "./{{ name }}.actions.{{ filesType.script }}";'
-class {{name | camelCase}}Store implements Module<any, any> {
-  public state = {
-  };
-  actions = { ...{{name | camelCase}}Actions}
+import { {{name | camelCase}}Getters } from  './{{ name }}.getters';
+import { {{name | camelCase}}MutationsMap } from  './{{ name }}.mutations';
+import { {{name | camelCase}}ActionsMap } from './{{ name }}.actions';
 
-  mutations = {...{{name | camelCase}}Mutations}
+export interface {{name | PascalCase}}State {
+
 }
 
-export default new {{name | camelCase}}Store();
+export const {{name | camelCase}}State: {{name | PascalCase}}State = {
 
+};
+
+export const {{name | camelCase}}Store = {
+  state: {{name | camelCase}}State,
+  getters: {...{{name | camelCase}}Getters},
+  actions: { ...{{name | camelCase}}ActionsMap },
+  mutations: { ...{{name | camelCase}}MutationsMap },
+}
 

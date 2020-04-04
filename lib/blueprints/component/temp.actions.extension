@@ -1,3 +1,13 @@
-export const {{name | camelCase}}Actions={
+import { Commit } from 'vuex';
+import { {{name | camelCase}}Mutations } from './{{name}}.mutations';
+import { {{name | camelCase}}Store } from './{{name}}.store';
+
+export const namespace = '{{name | camelCase}}Store';
+
+export const {{name | camelCase}}Actions = {
+
+} 
+
+export const {{name | camelCase}}ActionsMap = {
 
 } 

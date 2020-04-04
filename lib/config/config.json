@@ -1,10 +1,12 @@
 {
+  "dest": "",
   "filesType": {
-    "spec": "js",
+    "test": "js",
     "script": "js",
     "actions": "js",
     "store": "js",
     "mutations": "js",
+    "getters": "js",
     "html": "html",
     "style": "scss"
   }

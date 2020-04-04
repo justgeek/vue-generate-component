@@ -4,10 +4,10 @@ import Component from 'vue-class-component';
 @Component({
   components: {
   },
-  name: '{{name | kebabCase}}',
+  name: 'my-page',
 })
 
-export default class {{name | PascalCase}}{{postfix | PascalCase}} extends Vue {
+export default class MyPage extends Vue {
   
 }
 
