@@ -17,6 +17,7 @@ Please feel free to contribute or just send your suggestions/feedback to <mt@pro
   - Create single file components [OPEN]
   - Create directives [OPEN]
   - Avail more options for CLI for more convenience [OPEN]
+  - Automate release cycle and sem versioning increment [OPEN]
 
 
 ## Installation
