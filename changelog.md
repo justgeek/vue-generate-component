@@ -4,12 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Release] 1.1.2
+## [Hotfix] 1.1.3
+### Fixed
+- Remove scoped styles from index.vue (use css specifity)
+
+## [Hotfix] 1.1.2
 ### Fixed
 - Fix test file pointing to wrong page file
 - Remove unnecessary store file import extension to avoid TSLint warnings
 
-## [Release] 1.1.1
+## [Hotfix] 1.1.1
 ### Fixed
 - Remove unnecessary store file import extension to avoid TSLint warnings
 
