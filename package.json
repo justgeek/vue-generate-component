@@ -39,6 +39,6 @@
     "swig": "^1.4.2"
   },
   "devDependencies": {
-    "gulp4-run-sequence": "^1.0.1",
+    "gulp4-run-sequence": "^1.0.1"
   }
 }
