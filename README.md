@@ -112,7 +112,7 @@ Will generate a page folder with following structure:
 
 **my-page.page.html**
 ```html
-<section id="my-page">
+<section id="my-page" class="page">
   <h1>my-page Component</h1>
 </section>
 ```

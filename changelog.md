@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Hotfix] 1.1.4
+### Changed
+- Remove namespace from mutations file
+### Fixed
+- Fix import state in mutation file to be type (PascalCase) instead of value (camelCase)
+- Added class page to any generated page
+
 ## [Hotfix] 1.1.3
 ### Fixed
 - Remove scoped styles from index.vue (use css specifity)

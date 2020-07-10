@@ -1,6 +1,4 @@
-import { {{name | camelCase}}State } from './{{name}}.store';
-
-export const namespace = '{{name | camelCase}}Store';
+import { {{name | PascalCase}}State } from './{{name}}.store';
 
 export const {{name | camelCase}}Mutations = {
 

@@ -1,5 +1,5 @@
 {% if filesType.html === 'jade' || filesType.html === 'pug' %}
-section(id="{{name | kebabCase}}")
+section(id="{{name | kebabCase}}" class="page")
   h1 {{name | kebabCase}} Component
 {% else %}
 <section id="{{name | kebabCase}}">
