@@ -7,9 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Hotfix] 1.1.4
 ### Changed
 - Remove namespace from mutations file
+- Added class page to any generated page
 ### Fixed
 - Fix import state in mutation file to be type (PascalCase) instead of value (camelCase)
-- Added class page to any generated page
 
 ## [Hotfix] 1.1.3
 ### Fixed
