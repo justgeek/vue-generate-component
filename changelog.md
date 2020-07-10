@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Release] 1.2.0
+### Added
+- Add support for custom class extension for pages (MyPage extends MyCustomComponent)
+### Fixed
+- Upgrade gulp to v4
+- Fixed some typos
+
 ## [Hotfix] 1.1.4
 ### Changed
 - Remove namespace from mutations file

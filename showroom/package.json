@@ -1,11 +1,19 @@
 {
   "name": "showroom",
   "version": "1.0.0",
-  "description": "vue-genrator-show-room, use npm link",
+  "description": "vue-genrator-show-room, use npm run link after executing npm link command in root folder of parent project",
   "main": "index.js",
   "scripts": {
     "help": "vgcx --help",
-    "newpage" : "vgcx --script ts --postfix page --dest path/to"
+    "newpage-with-postfix": "vgcx --script ts --postfix page --dest path/to",
+    "newpage-without-postfix": "vgcx --script ts --dest path/to",
+    "newpage-with-extension": "vgcx --script ts --classExtension MyCustomComponent --postfix page --dest path/to",
+    "newpage-without-extension": "vgcx --script ts --postfix page --dest path/to",
+    "link": "npm link ../"
+  },
+  "exmaple": {
+    "with": "npm run newpage-with-extension my-page",
+    "without": "npm run newpage-without-postfix my-page"
   },
   "author": "",
   "license": "ISC"

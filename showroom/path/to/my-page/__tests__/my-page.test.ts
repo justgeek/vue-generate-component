@@ -1,10 +1,10 @@
 import Vue from 'vue';
 import { mount } from '@vue/test-utils'
-import MyPage from './my-page.ts';
+import MyPagePage from '../my-page.page';
 
-describe('MyPage', () => {
+describe('MyPagePage', () => {
   test('is a Vue instance', () => {
-    const wrapper = mount(MyPage)
+    const wrapper = mount(MyPagePage)
     expect(wrapper.isVueInstance()).toBeTruthy()
   })
 })

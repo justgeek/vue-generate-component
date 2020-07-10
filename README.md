@@ -42,7 +42,8 @@ vgcx <OPTIONS> <NAME>
 [
   {
     name: 'help',
-    type: Boolean,escription: 'help'
+    type: Boolean,
+    description: 'help'
   },
   {
     name: 'html',
@@ -73,6 +74,11 @@ vgcx <OPTIONS> <NAME>
     name: 'postfix',
     type: String,
     description: 'create postfix in file name'
+  },
+  {
+    name: 'classExtension',
+    type: String,
+    description: 'if provided will replace default extension for pages with whatever name provided to this option'
   },
   {
     name: 'dest',

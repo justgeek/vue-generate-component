@@ -1,6 +1,4 @@
-import { myPageState } from './my-page.store';
-
-export const namespace = 'myPageStore';
+import { MyPageState } from './my-page.store';
 
 export const myPageMutations = {
 
