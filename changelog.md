@@ -6,9 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Release] 1.2.0
 ### Added
-- Add support for custom extension for pages (Component extends MyCustomComponent)
+- Add support for custom class extension for pages (MyPage extends MyCustomComponent)
 ### Fixed
 - Upgrade gulp to v4
+- Fixed some typos
 
 ## [Hotfix] 1.1.4
 ### Changed
