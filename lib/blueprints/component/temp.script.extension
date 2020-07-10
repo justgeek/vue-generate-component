@@ -7,8 +7,7 @@ import Component from 'vue-class-component';
   name: '{{name | kebabCase}}',
 })
 
-export default class {{name | PascalCase}}{{postfix | PascalCase}} extends Vue {
-  
+export default class {{name | PascalCase}}{{postfix | PascalCase}} extends {% if classExtension %}{{classExtension}}{% else %}Vue{% endif %} {
 }
 
 
