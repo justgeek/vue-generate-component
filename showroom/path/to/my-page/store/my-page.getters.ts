@@ -1,4 +1,4 @@
-import { MyPageState } from  './my-page.store.ts';
+import { MyPageState } from  './my-page.store';
 
 export const myPageGetters = {
 
