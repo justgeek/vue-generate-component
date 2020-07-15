@@ -22,7 +22,7 @@ Please feel free to contribute or just send your suggestions/feedback to <mt@pro
 
 ## Installation
 ```js
-npm install -S vue-generate-component-x
+npm install -D vue-generate-component-x
 ```
 -- or --
 

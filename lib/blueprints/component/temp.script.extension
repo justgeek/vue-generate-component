@@ -4,7 +4,7 @@ import Component from 'vue-class-component';
 @Component({
   components: {
   },
-  name: '{{name | kebabCase}}',
+  name: '{{name | kebabCase}}-{{postfix | kebabCase }}',
 })
 
 export default class {{name | PascalCase}}{{postfix | PascalCase}} extends {% if classExtension %}{{classExtension}}{% else %}Vue{% endif %} {
