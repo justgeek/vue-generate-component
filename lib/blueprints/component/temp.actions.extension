@@ -1,6 +1,6 @@
-import { Commit } from 'vuex';
-import { {{name | camelCase}}Mutations } from './{{name}}.mutations';
-import { {{name | camelCase}}Store } from './{{name}}.store';
+//import { Commit } from 'vuex';
+//import { {{name | camelCase}}Mutations } from './{{name}}.mutations';
+//import { {{name | camelCase}}Store } from './{{name}}.store';
 
 export const namespace = '{{name | camelCase}}Store';
 

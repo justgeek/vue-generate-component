@@ -1,4 +1,4 @@
-import Vue from 'vue';
+{% if classExtension %}{% else %}import Vue from 'vue';{% endif %}
 import Component from 'vue-class-component';
 
 @Component({

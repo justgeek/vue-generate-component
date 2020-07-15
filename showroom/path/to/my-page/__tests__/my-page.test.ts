@@ -1,4 +1,3 @@
-import Vue from 'vue';
 import { mount } from '@vue/test-utils'
 import MyPagePage from '../my-page.page';
 
