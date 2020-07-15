@@ -1,4 +1,4 @@
-import { MyPageState } from  './my-page.store';
+//import { MyPageState } from  './my-page.store';
 
 export const myPageGetters = {
 

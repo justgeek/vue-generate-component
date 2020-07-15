@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Hotfix] 1.2.1
+### Changed
+- Commented unnecessary imports to avoid lint warnings in some projects
+- Removed Vue import if classExtension is used
+
 ## [Release] 1.2.0
 ### Added
 - Add support for custom class extension for pages (MyPage extends MyCustomComponent)
